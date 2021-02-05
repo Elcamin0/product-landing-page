@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/custom-style.css">
+		<style>
+			@media only screen and (max-width: 768px) {
+			  /* For mobile phones: */
+			  [class*="col-"] {
+			    width: 100%;
+			  }
+			}
+
+			.flex-container {
+				display: flex;
+				justify-content: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header id="header">
+			<center>
+				<img id="header-img" src="https://images.tokopedia.net/img/cache/215-square/shops-1/2020/6/2/2431889/2431889_9447fd00-e115-462c-9970-eaa1caa897d8.jpg"/>
+				<nav id="nav-bar">
+					<a class="nav-link" href="#learn-more">Learn More</a>
+					<a class="nav-link" href="#request-coupon">Request Coupon</a>
+					<a class="nav-link" href="#buy-on-tokopedia">Buy on Online Store</a>
+				</nav>
+
+			</center>
+		</header>
+		<section id="learn-more">
+			<center>
+				<h1>Product Landing Page</h1>
+				<iframe id="video" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Falvinkornelius%2Fvideos%2F5591733804185952%2F&show_text=false&width=560" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+			</center>
+		</section>
+		<section id="request-coupon">
+			<center>
+				<h2>Request a Coupon</h2>
+				<form id="form" action="https://www.freecodecamp.com/email-submit">
+					<input id="email" type="email" placeholder="example@whatever.com" name="email"></input>
+					<input type="submit" id="submit"></input>
+				</form>
+			</center>
+		</section>
+		<section id="buy-on-tokopedia">
+				<div class="flex-container">
+				  <div><a href="tokopedia-affiliate-link">Buy on Tokopedia</a></div>
+				  <div><a href="bukalapak-affiliate-link">Buy on Bukalapak</a></div>
+				  <div><a href="shopee-affiliate-link">Buy on Shopee</a></div>
+				</div>
+		</section>
+	</body>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
